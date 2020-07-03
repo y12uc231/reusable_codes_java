@@ -84,22 +84,44 @@ public class TestJava {
 
         //Queue<Integer> que = new Queue<>();
 
-        Stack<String> stackStringVals = new Stack<>();
-        stackStringVals.push("sdfs");
-        System.out.println(stackStringVals.pop());
+//        Stack<String> stackStringVals = new Stack<>();
+//        stackStringVals.push("sdfs");
+//        System.out.println(stackStringVals.pop());
+//
+//        boolean out = true;
+//        out |= false;
+//        System.out.println(!out);
+//        List<Character> arguments;
+//        List<Character> listInts = new ArrayList<>();
+//        listInts.add('3');
+//        listInts.add('4');
+//        Character[] val = listInts.toArray(new Character[0]);
+//        char result = 'f';
+//        String name = "Satyapriya";
+//        System.out.println(name.substring(0,3).equals(name.substring(3,4)));
+//        System.out.println(Arrays.toString(val));
+//        System.out.println(Boolean.valueOf(false).compareTo(false));
+        Map.Entry<Integer, Integer> entry = new Map.Entry<Integer, Integer>() {
+            int key, value;
 
-        boolean out = true;
-        out |= false;
-        System.out.println(!out);
-        List<Character> arguments;
-        List<Character> listInts = new ArrayList<>();
-        listInts.add('3');
-        listInts.add('4');
-        Character[] val = listInts.toArray(new Character[0]);
-        char result = 'f';
-        String name = "Satyapriya";
-        System.out.println(name.substring(0,3).equals(name.substring(3,4)));
-        System.out.println(Arrays.toString(val));
-        System.out.println(Boolean.valueOf(false).compareTo(false));
+            @Override
+            public Integer getKey() {
+                return null;
+            }
+
+            @Override
+            public Integer getValue() {
+                return null;
+            }
+
+            @Override
+            public Integer setValue(Integer value) {
+                return null;
+            }
+        };
+
+
+
+
     }
 }
