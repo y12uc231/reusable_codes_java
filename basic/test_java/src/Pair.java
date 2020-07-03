@@ -6,6 +6,10 @@ import java.util.Map;
 public class Pair<T,T2> implements Map.Entry {
     T x;
     T2 y;
+    Pair(T x, T2 y) {
+        this.x = x;
+        this.y = y;
+    }
     @Override
     public T getKey() {
         return x;
