@@ -1,14 +1,24 @@
+package algorithm.implementation;
+
 import java.util.Map;
 
 /**
  * Created by satyapriyakrishna on 7/3/20.
  */
+
+/***
+ * Open questions regarding generics in java
+ * Generic methods
+ * Generic interfaces
+ * Bounding types of generics
+ * Wild cards
+ */
+
 public class Pair<T,T2> implements Map.Entry {
     T x;
     T2 y;
-    public static <E, E2> void addPairs(Pair<E, E2> p1 , Pair<E, E2> p2) {
-        System.out.print("Complete static function");
-    }
+
+
     Pair(T x, T2 y) {
         this.x = x;
         this.y = y;
