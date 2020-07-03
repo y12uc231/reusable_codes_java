@@ -6,6 +6,9 @@ import java.util.Map;
 public class Pair<T,T2> implements Map.Entry {
     T x;
     T2 y;
+    public static <E, E2> void addPairs(Pair<E, E2> p1 , Pair<E, E2> p2) {
+        System.out.print("Complete static function");
+    }
     Pair(T x, T2 y) {
         this.x = x;
         this.y = y;
