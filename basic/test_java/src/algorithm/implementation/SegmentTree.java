@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/range-sum-query-immutable/
+package algorithm.implementation;
+
 class SegmentNode {
     int l, r, s;
     SegmentNode left, right;
