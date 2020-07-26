@@ -1,6 +1,14 @@
 import java.util.*;
+//*****
+//Q1 : What is the difference between default , abstract and static function
+//Q2 : What are streams and why is it helpful?
+//Q3 : How does exception handling works?
+
+
+//*****
 
 public class TestJava {
+
 
     public static void printToString(char[][] inp_strs) {
         for (int i = 0 ; i < inp_strs.length ; i++) {
