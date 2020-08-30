@@ -1,4 +1,4 @@
-package java.generics;
+package java_tut.generics;
 
 /**
  * Created by satyapriyakrishna on 7/3/20.

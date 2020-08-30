@@ -1,4 +1,4 @@
-package java.generics;
+package java_tut.generics;
 
 /**
  * Generics is to allow type safe generic modules
