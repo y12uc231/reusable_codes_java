@@ -1,4 +1,7 @@
 package java_tut.basics;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.*;
 
 /*****
  * Tutorial Link :
@@ -8,4 +11,13 @@ package java_tut.basics;
  */
 
 public class Basics1 {
+    public static void main(String[] args) {
+//        HashSet<Integer> set1 = new HashSet<>();
+//        set1.add(123);
+//        Iterator<Integer> iter = set1.iterator();
+//        System.out.println(iter.next());
+        int[] arr1 = new int[] {1,2};
+
+
+    }
 }
