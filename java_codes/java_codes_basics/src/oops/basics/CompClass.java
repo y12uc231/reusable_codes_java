@@ -11,7 +11,7 @@ public class CompClass implements Comparable<CompClass>{
 
     public static void main(String[] args) {
         CompClass[] objs = new CompClass[2];
-        objs[0] = new
+        //objs[0] = new
     }
 
 }
